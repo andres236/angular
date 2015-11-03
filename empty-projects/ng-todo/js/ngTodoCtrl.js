@@ -1,12 +1,12 @@
 ngTodo.controller('NgTodoCtrl', function NgTodoCtrl($scope) {
 
 	$scope.todos = [
-		{ val: "A new cool thing", complete: false},
-		{ val: "A newer cool thing", complete: true},
-		{ val: "A new cooler thing", complete: false},
-		{ val: "A newer cooler thing", complete: false},
-		{ val: "A newest cool thing", complete: false},
-		{ val: "A new coolest thing", complete: true}
+		{ val: "A new cool thing", completed: false},
+		{ val: "A newer cool thing", completed: true},
+		{ val: "A new cooler thing", completed: false},
+		{ val: "A newer cooler thing", completed: false},
+		{ val: "A newest cool thing", completed: false},
+		{ val: "A new coolest thing", completed: true}
 	];
 		$scope.newTask = "An initial value.";
 
