@@ -8,4 +8,6 @@ ngTodo.controller('NgTodoCtrl', function NgTodoCtrl($scope) {
 		{ val: "A newest cool thing", complete: false},
 		{ val: "A new coolest thing", complete: true}
 	];
+		$scope.newTask = "An initial value.";
+
 });
